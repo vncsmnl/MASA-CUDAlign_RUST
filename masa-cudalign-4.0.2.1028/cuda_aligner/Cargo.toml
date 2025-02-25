@@ -1,0 +1,13 @@
+[package]
+name = "cuda_aligner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cuda-runtime-sys = "0.3.0"
+thiserror = "1.0"
+log = "0.4"
+env_logger = "0.10"
+
+[build-dependencies]
+cc = "1.0"
